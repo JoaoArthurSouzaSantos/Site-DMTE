@@ -6,14 +6,8 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>{{ config('app.name', 'Laravel') }}</title>
-
-    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
     <style>
-        /* Estilização Customizada */
-       /* Estilização geral */
 body {
     background-color: #f9f9fc; /* Fundo suave */
     color: #4a4a6a; /* Texto roxo escuro */
